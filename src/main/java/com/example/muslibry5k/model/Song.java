@@ -29,6 +29,15 @@ public class Song {
         this.publisher = publisher;
     }
 
+    public Song(String title, String genre, String ismn, String year, String publisher, Set<Artist> artists) {
+        this.title = title;
+        this.genre = genre;
+        this.ismn = ismn;
+        this.year = year;
+        this.publisher = publisher;
+        this.artists = artists;
+    }
+
     public Long getId() {
         return id;
     }

@@ -26,6 +26,13 @@ public class Artist {
         this.nick = nick;
     }
 
+    public Artist(String firstName, String lastName, String nick, Set<Song> songs) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.nick = nick;
+        this.songs = songs;
+    }
+
     public Long getId() {
         return id;
     }
